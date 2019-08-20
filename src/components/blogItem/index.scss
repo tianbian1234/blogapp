@@ -1,0 +1,60 @@
+.blog-box{
+    height: 214px;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background: #ffffff;
+    position: relative;
+    .title{
+        display: flex;
+        .type{
+            position: relative;
+            margin-right: 20px;
+            position: relative;
+            top: -2px;
+            padding: 2px 6px 4px;
+            background-color: #d9534f;
+            cursor: pointer;
+            .label-arrow{
+                position: absolute;
+                width: 0px;
+                height: 0px;
+                border-width: 5px 0px 5px 5px;
+                border-color: transparent #d9534f;
+                border-style: solid;
+                right: -5px;
+                top: 13px;
+            }
+        }
+        h3{
+            margin: 0;
+            cursor: pointer;
+        }
+    }
+    .item_content{
+        display: flex;
+        flex-direction: row;
+        img{
+            width: 200px;
+            height: 123px;
+            flex-shrink: 0;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        .content{
+            height: 115px;
+            margin-left: 10px;
+            overflow: hidden;
+        }
+    }
+    .bottom_config{
+        float: right;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        span{
+            margin-right: 20px;
+        }
+    }
+}  

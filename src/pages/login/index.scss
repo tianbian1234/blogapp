@@ -1,0 +1,42 @@
+.login_box{
+    width: 100%;
+    position: relative;
+    .login_box_center{
+        box-sizing: border-box;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-top: -130px;
+        margin-left: -160px;
+        width: 320px;
+        height: 260px;
+        padding: 26px 24px 46px;
+        background: #ffffff;
+        box-shadow: 0 1px 3px rgba(0,0,0,.13);
+        .title{
+            font-size: 14px;
+            color: #72777c;
+            margin: 0;
+        }
+        input{
+            width: 100%;
+            padding: 3px;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .button_box{
+            width: 100%;
+            position: relative;
+            text-align: center;
+            button{
+                margin: 0 auto;
+                font-size: 14px;
+                padding: 6px 14px;
+                border-radius: 4px;
+                color: #fff;
+                background: #0085ba;
+            }  
+        }
+       
+    }
+}
